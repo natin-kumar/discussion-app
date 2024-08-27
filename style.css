@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-size: 6vh;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(23, 122, 122);
+    height: 8vh;
+    width: 100%;
+    padding-left: 1vh;
+    
+}
+.main{
+    display: flex;
+}
+.first{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 10vh;
+
+}
+#formbtn{
+    margin: 1vh;
+    margin-top: 3vh;
+    background: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    padding: .3vh;
+    height: 4vh;
+    width: 25vh;
+}
+#searchQuestion{
+    margin: 1vh;
+    height: 4vh;
+    width: 40vh;
+    margin-top: 3vh;
+}
+.left,.right{
+    width: 50%;
+    margin: 1vh;
+    margin-left: .25vh;
+    /* border: 1px solid black; */
+    height: 90vh;
+    width: 100%;
+}
+
+#subject{
+    display: block;
+    margin: 1vh;
+    height: 4vh;
+    width: 25vh; 
+}
+#question{
+    display: block;
+    height: 25vh;
+    width: 60vh;
+    margin: 1vh;
+}
+#submitbtn{
+    display: block;
+     margin-left: 54.4vh;
+     background: rgb(0, 140, 255);
+     color: white;
+     border: none;
+     padding: .25vh;
+}
+#rightPara{
+    margin: 1vh;
+}
+#rightHeading{
+    font-size: 6vh;
+    margin-top: 15vh;
+}
+.second{
+    /* border: 1px solid black; */
+    height: 79.6vh;
+    background-color: rgb(221, 214, 202);
+    padding-top: 1vh;
+    /* overflow-y: auto; */
+    overflow-x: auto;
+}
+.data{
+    margin-left: 5vh;
+}
+.dynamic_h2{
+    /* height: fit-content; */
+    max-height: 10vh;
+    width: 80%;
+    margin: 1vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.dynamic_p{
+    /* height: fit-content; */
+    max-height: 10vh;
+    width: 80%;
+    margin: 1vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.child{
+    border: 1px solid black;
+    border-radius: 1vh;
+    margin: 1vh;
+    position: relative;
+}
+
+#questionHeading{
+    margin-left: 7vh;
+    margin-top: 8vh;
+}
+#resolve{
+    margin-left: 84vh;
+    width: max-content;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    height: 3vh;
+    color: white;
+    padding-bottom: 1vh;
+    margin-top: 1vh;
+}
+#submitResponse{
+    margin-left: 85.5vh;
+    width: 7vh;
+    height: 3vh;
+    background-color: rgb(0, 140, 255);
+    border: none;
+    margin-top: 1vh;
+    padding:auto;
+    color: white;
+}
+.bstar{
+    width: 4vh;
+    height: 4vh;
+    background-color: inherit;
+    position: absolute;
+    top:30%;
+    left:90%
+}
+
+.QuestResponse{
+    width: 77vh;
+    height: 25vh;
+    display: none;
+}
+.respHeading{
+    margin-left: 7vh;
+
+}
+#responseName{
+    display: block;
+    /* margin: 1vh; */
+    margin-left: 7vh;
+    margin-top: 1vh;
+    height: 4vh;
+    width: 25vh; 
+}
+#comment{
+    display: block;
+    margin-left: 7vh;
+    margin-top: 1vh;
+    height: 20vh;
+    width: 85vh;
+}
+#subjectResponse{
+    margin-left: 7vh;
+    margin-top: .5vh;
+    max-height: 10vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#questionResponse{
+    margin-left: 7vh;
+    margin-top: .5vh;
+}
+.clickQuestion{
+    background: rgb(221, 214, 202);
+    margin-left: 7vh;
+    width: 113.5%;
+    position: relative;
+    max-height: 20vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.responses{
+    max-height: 25vh;
+    width: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.addResponse{
+    margin-left: 7vh;
+    margin-top: 1vh;
+}
+.response_h2{
+    margin-left: 6vh;
+    margin-top: .5vh;
+    max-height: 5vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    width: 60%;
+}
+.response_p{
+    margin-left: 6vh;
+    max-height: 5vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    width: 60%;
+
+}
+.like{
+    height: 3vh;
+    width: 3vh;
+    position:absolute;
+    left: 65%;
+    top: 18%;
+}
+.dislike{
+    height: 4vh;
+    width: 5vh;
+    position:absolute;
+    left: 70%;
+    top: 12%;
+}
+.likeCounter{
+    position: absolute;
+    left: 66%;
+    top:55%;
+    font-size: 2vh;
+}
+.dislikeCounter{
+    position: absolute;
+    left: 72%;
+    top:55%;
+    font-size: 2vh;
+
+}
+.time{
+    position:absolute;
+    bottom:1vh;
+    /* left: 25vh; */
+    right: 6.5vh;
+    font-size: small;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10c27eb049.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>Discussion Portal</header>
+    
+    <div class="main">
+        <div class="left">
+            <div class="first">
+                <input type="button" name="New Form" id="formbtn" value="New Question Form">
+                <input type="search" name="serchQuestion" id="searchQuestion" placeholder="Search Questions..." onkeyup="searchQuestion()">
+            </div>
+            <div class="second">
+            </div>
+        </div>
+        <div class="right">
+            <div class="data">
+                <h2 id="rightHeading">Welcome to Discussion Portal !</h2>
+                <p id="rightPara">Enter a Subject and Question to get started</p>
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <textarea name="question" id="question" placeholder="Question"></textarea>
+                <input type="submit" name="submitbtn" id="submitbtn">
+            </div>
+            <div class="QuestResponse">
+                <h2 id="questionHeading">Question</h2>
+                <div class="clickQuestion">
+                    <h2 id="subjectResponse">
+                    </h2>
+                    <p id="questionResponse">
+                    </p>
+                </div>
+                <input type="button" name="response" id="resolve" value="Resolve">
+                   <h2 class="respHeading">Response</h2>
+                <div class="responses">
+                </div>
+                <h3 class="addResponse">ADD Response</h3>
+                <input type="text" name="responseName" id="responseName"  placeholder="Enter Response">
+                <textarea name="comment" id="comment" placeholder="Enter Comment "></textarea>
+                <input type="submit" name="submitResponse" id="submitResponse">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
