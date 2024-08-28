@@ -208,7 +208,7 @@ function questionId(qId) {
 function loadResponses(questionId) {
     responses.innerHTML = '';
     const question = localdata.find(q => q.id == questionId);
-    console.log(question,questionId);
+    // console.log(question,questionId);
     question.responses.forEach(response => {
         const newdiv = createResponseDOM(response.resName, response.comm, response.id, response.like, response.dislike);
         responses.appendChild(newdiv);
@@ -227,7 +227,7 @@ function createResponseDOM(name, comment, id, like = 0, dislike = 0) {
         <img src="dislike.png" class="dislike">
         <span class="dislikeCounter">${dislike}</span>
     `;
-    console.log(id);
+    // console.log(id);
     const likeBtn = newdiv.querySelector('.like');
     const dislikeBtn = newdiv.querySelector('.dislike');
     likeBtn.addEventListener('click', () => updateLikeDislike(id, true));
